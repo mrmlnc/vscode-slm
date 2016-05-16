@@ -1,12 +1,14 @@
 {
     "name": "vscode-slm",
     "displayName": "Slm",
-    "description": "Sim language support for VS Code",
     "version": "1.0.0",
+    "description": "Slm language support for VS Code",
     "publisher": "mrmlnc",
     "engines": {
         "vscode": "^1.0.0"
     },
+    "icon": "icon.png",
+    "homepage": "https://github.com/mrmlnc/vscode-slm",
     "categories": [
         "Languages"
     ],
