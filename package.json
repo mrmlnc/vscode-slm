@@ -1,8 +1,8 @@
 {
     "name": "vscode-slm",
     "displayName": "Slm",
-    "version": "1.0.0",
     "description": "Slm language support for VS Code",
+    "version": "1.0.1",
     "publisher": "mrmlnc",
     "engines": {
         "vscode": "^1.0.0"
