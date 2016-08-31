@@ -1,2 +1,5 @@
 .vscode/**
-colorization.png
+typings/**
+test/**
+.gitignore
+.travis.yml
