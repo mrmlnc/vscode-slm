@@ -1,28 +1,38 @@
 {
     "name": "vscode-slm",
-    "displayName": "Slm",
+    "displayName": "Slm syntax",
     "description": "Slm language support for VS Code",
     "version": "1.0.1",
     "publisher": "mrmlnc",
+    "license": "MIT",
     "engines": {
-        "vscode": "^1.0.0"
+      "vscode": "^1.3.0"
     },
-    "icon": "icon.png",
-    "homepage": "https://github.com/mrmlnc/vscode-slm",
-    "categories": [
-        "Languages"
-    ],
-    "contributes": {
-        "languages": [{
-            "id": "slm",
-            "aliases": ["Slm"],
-            "extensions": [".slm"],
-            "configuration": "./slm.configuration.json"
-        }],
-        "grammars": [{
-            "language": "slm",
-            "scopeName": "text.slm",
-            "path": "./syntaxes/slm.tmLanguage"
-        }]
-    }
+  "icon": "icon.png",
+  "homepage": "https://github.com/mrmlnc/vscode-slm/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrmlnc/vscode-slm"
+  },
+  "keywords": [
+    "slm",
+    "syntax",
+    "highlight"
+  ],
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "slm",
+      "aliases": ["Slm", "slm"],
+      "extensions": [".slm"],
+      "configuration": "./slm.configuration.json"
+    }],
+    "grammars": [{
+      "language": "slm",
+      "scopeName": "text.jade.slm",
+      "path": "./syntaxes/slm.json"
+    }]
+  }
 }
