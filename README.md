@@ -1,5 +1,7 @@
 # vscode-slm
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mrmlnc/vscode-slm.svg)](https://greenkeeper.io/)
+
 > This extension adds support for [Slm](https://github.com/slm-lang/slm) to VS Code.
 
 ## Colorization
